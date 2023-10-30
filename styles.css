@@ -1,0 +1,92 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the main title */
+h1 {
+    background-color: #003355;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+/* Style the search form container */
+#search-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Style the input field and search button */
+#city-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-button {
+    width: 28%;
+    padding: 10px;
+    background-color: #003355;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #003355;
+}
+
+/* Style the weather data containers */
+#current-weather, #forecast-weather, #search-history {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Style headings for weather data sections */
+h2 {
+    color: #003355;
+    margin-bottom: 10px;
+}
+
+/* Style links in search history */
+#search-history a {
+    color: #003355;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#search-history a:hover {
+    text-decoration: underline;
+}
+
+/* Style forecast items */
+.forecast-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
